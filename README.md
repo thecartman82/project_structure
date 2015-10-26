@@ -1,9 +1,9 @@
+
 # Different project structures
 
 ## 1. Layered
 
 ```text
-project
 ├── public
 │   ├── fonts
 │   ├── images
@@ -67,19 +67,21 @@ project
     │       │   └── home.html
     │       └── layout.html
     └── site.py
+
+32 directories, 31 files
 ```
 
 ## 2. Compartmentalized
 
 ```
-project
 ├── public
 │   ├── fonts
 │   ├── images
-│   │   ├── home
-│   │   │   ├── logo_large.jpg (generated)
-│   │   │   └── stock_handshake.jpg (generated)
-│   │   └── logo.png (generated)
+│   │   ├── common
+│   │   │   └── logo.png (generated)
+│   │   └── home
+│   │       ├── logo_large.jpg (generated)
+│   │       └── stock_handshake.jpg (generated)
 │   └── style
 │       └── app.hr344hg3.css (generated)
 └── src
@@ -97,12 +99,14 @@ project
     │   │   │   ├── catalogue.py
     │   │   │   └── product.scss
     │   │   ├── common
-    │   │   │   └── colors.scss
+    │   │   │   ├── colors.scss
+    │   │   │   └── logo.png
     │   │   ├── components
     │   │   │   ├── product.html
     │   │   │   └── product.js
     │   │   ├── home
     │   │   │   ├── home.html
+    │   │   │   ├── home.js
     │   │   │   ├── home.py
     │   │   │   ├── home.scss
     │   │   │   └── images
@@ -118,4 +122,6 @@ project
     │       └── tools.py
     └── site.py
 
+19 directories, 28 files
 ```
+
