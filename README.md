@@ -82,6 +82,11 @@
 │   │   └── home
 │   │       ├── logo_large.jpg (generated)
 │   │       └── stock_handshake.jpg (generated)
+│   ├── js
+│   │   ├── admin.min.js (generated)
+│   │   ├── home
+│   │   │   └── home.min.js (generated)
+│   │   └── site.min.js (generated)
 │   └── style
 │       └── app.hr344hg3.css (generated)
 └── src
@@ -122,6 +127,6 @@
     │       └── tools.py
     └── site.py
 
-19 directories, 28 files
+21 directories, 31 files
 ```
 
